@@ -1,11 +1,22 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
+  padding: 7rem 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  
+}
+.about{
+ 
+  padding: 1rem 0;
+  padding-top:0%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
 }
 
 .main {
@@ -15,6 +26,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #F2F2F2;
 }
 
 .footer {
@@ -67,6 +79,7 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+    color:rgb(66, 75, 155);
 }
 
 .grid {
