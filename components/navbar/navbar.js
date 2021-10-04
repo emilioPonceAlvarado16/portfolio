@@ -4,7 +4,7 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedinIn, faGithub}  from '@fortawesome/free-brands-svg-icons'
 export const  NavBar =(props)=>{
 const photo_style={
-    maxHeight:'100px',
+    maxHeight:'115px',
     borderRadius:"35px",
     display:'flex',
     opacity:'0.85',

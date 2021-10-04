@@ -25,7 +25,7 @@ return (
     <p>About</p>
   </div>
   <div className="message-body">
-Hi!, I'm Isaias, over the years i've built up a diverse range of skills and qualities that i believe are very usefull for my career. I'm very good with customers because I understand for your business to be successful. Here is my<a href="www.google.com"> <strong > resume</strong> </a>, where you will find more information, and finally here i'm listing my recent repositories.</div>
+Hi!, I´m Isaias, over the years i´ve built up a diverse range of skills and qualities that i believe are very usefull for my career. I´m very good with customers because I understand for your business to be successful. Here is my<a href="www.google.com"> <strong > resume</strong> </a>, where you will find more information, and finally here i´m listing my recent repositories.</div>
 </article>
 )
 }
