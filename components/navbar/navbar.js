@@ -7,6 +7,7 @@ const photo_style={
     maxHeight:'100px',
     borderRadius:"35px",
     display:'flex',
+    opacity:'0.85',
 
 
 }
@@ -15,7 +16,7 @@ const navbar_style={
     backgroundColor:'black',
     padding:'1.0%', 
     display:'flex',
-    opacity:'0.85',
+    
     flexWrap:'wrap',
 }
 const divide={

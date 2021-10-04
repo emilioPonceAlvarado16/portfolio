@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { NavBar } from '../components//navbar'
+import { NavBar } from '../components//navbar/navbar'
 import { About } from '../components/about/about'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
