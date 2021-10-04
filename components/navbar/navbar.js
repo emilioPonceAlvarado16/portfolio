@@ -18,6 +18,7 @@ const navbar_style={
     display:'flex',
     
     flexWrap:'wrap',
+    opacity:'0.85'
 }
 const divide={
     paddingLeft:"15%"
@@ -33,6 +34,9 @@ const logo_name={
     padding:'20px 20px 0px 25px',
     justifyContent:'left'
    
+}
+const opacidad={
+  opacity:'0.85'
 }
 const holi={
    
@@ -59,7 +63,7 @@ return (
         </div>
 
 
-        <div className='navbar-brand  '>
+        <div className='navbar-brand  ' style={opacidad} >
                 
 
          
