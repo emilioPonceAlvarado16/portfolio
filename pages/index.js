@@ -3,12 +3,12 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { NavBar } from '../components//navbar/navbar'
 import { About } from '../components/about/about'
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Repository } from '../components/repositories/repository'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCopyright} from '@fortawesome/free-solid-svg-icons'
-
+import ReactGa from 'react-ga'
 
 var repositorios={
    response:"test"
@@ -35,11 +35,14 @@ export default function Home() {
                name:repo.name,
                url:repo.html_url,
                description:repo.description,
-               date:repo.created_at
+               date:repo.created_at,
+               owner:repo.owner.login
              }
            });
           console.log(repositorios);
           setRepositories(repositorios);
+       
+
         }
       })
       .catch(error=>{
@@ -49,6 +52,8 @@ export default function Home() {
 
     useEffect(()=>{
       console.debug("first loaded of the repos");
+      ReactGa.initialize('G-8HJXK3ZYPL')
+      ReactGa.pageview("/")
       readRepos();
 
 
@@ -91,7 +96,7 @@ export default function Home() {
 
             return(
             <div className="column is-one-third is-two-thirds-tablet is-two-quarters-mobile card has-background-light" key={index} >
-        <Repository url={repo.url} name={repo.name} description={repo.description} date={repo.date}/>
+        <Repository url={repo.url} owner={repo.owner} name={repo.name} description={repo.description} date={repo.date}/>
         </div>
             )
           })}
