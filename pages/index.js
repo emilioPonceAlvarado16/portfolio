@@ -23,13 +23,23 @@ const rep_style={
 export default function Home() {
 
     const [repositories, setRepositories]=useState([]);
-
+    const username="emilioPonceAlvarado16"
     const readRepos=()=>{
       console.debug('Descargando repositorios');
-      axios.get("https://api.github.com/users/emilioPonceAlvarado16/repos").then((response)=>{
+      // await.axios.get("https://api.github.com/users/emilioPonceAlvarado16/repos").then((response)=>{
+      // axios.get("https://api.github.com/search/repositories?q=user:emilioPonceAlvarado16/repos",
+      axios.get(`https://api.github.com/search/repositories?q=user:${username}+sort:author-date-asc`,
+      {
+      
+
+      }
+      
+      
+      
+      ).then((response)=>{
         // console.log(response);
         if(response.status==200){
-           repositorios=response.data.map(repo=>{
+           repositorios=response.data.items.map(repo=>{
              return{
                id:repo.id,
                name:repo.name,
