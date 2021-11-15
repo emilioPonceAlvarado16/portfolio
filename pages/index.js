@@ -39,7 +39,7 @@ export default function Home() {
       ).then((response)=>{
         // console.log(response);
         if(response.status==200){
-           repositorios=response.data.items.map(repo=>{
+           repositorios=response.data.items.reverse().map(repo=>{
              return{
                id:repo.id,
                name:repo.name,
