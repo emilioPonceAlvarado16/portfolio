@@ -50,7 +50,7 @@ export default function Home() {
              }
            });
           console.log(repositorios);
-          setRepositories(repositorios);
+          setRepositories(repositorios);//
        
 
         }
