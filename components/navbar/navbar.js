@@ -89,19 +89,19 @@ return (
        
        
           
-          <a href="https://www.linkedin.com/in/isaias-ponce-569109104/" target="_blank"  rel="noopener"className="button ">
+          <a href="https://www.linkedin.com/in/isaias-ponce-569109104/" target="_blank"   rel="noreferrer"className="button ">
               
             <span className="icon ">
                 <FontAwesomeIcon icon={faLinkedinIn}/>
                 </span>
           </a>
-          <a href="https://github.com/emilioPonceAlvarado16" target="_blank" rel="noopener" className="button" >
+          <a href="https://github.com/emilioPonceAlvarado16" target="_blank" rel="noreferrer" className="button" >
               <span className="icon">
           <FontAwesomeIcon icon={faGithub}/>
           </span>
           </a>
 
-          <a href="mailto:isaiasponce-12@hotmail.es"target="_blank"rel="noopener"  className="button" >
+          <a href="mailto:isaiasponce-12@hotmail.es"target="_blank" rel="noreferrer"  className="button" >
               <span className="icon">
           <FontAwesomeIcon icon={faEnvelope}/>
           </span>
