@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { NavBar } from '../components//navbar/navbar'
 import { About } from '../components/about/about'
@@ -9,10 +8,6 @@ import { Repository } from '../components/repositories/repository'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCopyright} from '@fortawesome/free-solid-svg-icons'
 import ReactGa from 'react-ga'
-
-var repositorios={
-   response:"test"
-}
 
 const rep_style={
   paddingLeft:'10%',
@@ -39,6 +34,7 @@ export default function Home() {
       ).then((response)=>{
         // console.log(response);
         if(response.status==200){
+          var repositorios={}
            repositorios=response.data.items.reverse().map(repo=>{
              return{
                id:repo.id,
@@ -71,9 +67,7 @@ export default function Home() {
 
     },[]);
 
-    useEffect(() => {
-      console.debug("Repositories list loaded");
-    }, [repositorios]);
+ 
 
 
 
