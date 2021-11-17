@@ -14,7 +14,7 @@ opacity:'0.8',
 
 export const  Repository =(props)=>{
 
-    const {name, description, url }=props;
+    const {name, description, url ,owner}=props;
     
     
     return (
@@ -29,13 +29,13 @@ export const  Repository =(props)=>{
             </div>
             <div className="media-content">
               <p className="title is-4">{name}</p>
-              <p className="subtitle is-6">@emilioPonceAlvarado16</p>
+              <p className="subtitle is-6">@{owner}</p>
             </div>
           </div>
       
           <div className="content">
             {description} 
-            <Link href={url} passHref={true}> @link </Link>
+            <Link href={url}> @link </Link>
 
           
             <br/>

@@ -25,7 +25,7 @@ return (
     <p>About</p>
   </div>
   <div className="message-body">
-Hi!, I´m Isaias, over the years I´ve built up a diverse range of skills and qualities that I believe are very useful for my career. I´m very good with customers because I understand that their business needs to be successful. Here is my<a passHref={true} href="https://portfolio-isaias.s3.us-east-2.amazonaws.com/Isaias_Ponce_CV.pdf"> <strong > resume</strong> </a>, where you will find more information, and finally here I´m listing my recent repositories.</div>
+Hi!, I´m Isaias, over the years I´ve built up a diverse range of skills and qualities that I believe are very useful for my career. I´m very good with customers because I understand that their business needs to be successful. Here is my<a target="_blank" href="https://portfolio-isaias.s3.us-east-2.amazonaws.com/Isaias_Ponce_CV.pdf"> <strong > resume</strong> </a>, where you will find more information, and finally here I´m listing my recent repositories.</div>
 </article>
 )
 }

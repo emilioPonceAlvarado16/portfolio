@@ -62,7 +62,7 @@ export default function Home() {
 
     useEffect(()=>{
       console.debug("first loaded of the repos");
-      ReactGa.initialize('G-8HJXK3ZYPL')
+      ReactGa.initialize('G-GPYHFQ91QD')
       ReactGa.pageview("/")
       readRepos();
 
