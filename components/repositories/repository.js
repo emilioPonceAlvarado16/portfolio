@@ -34,7 +34,7 @@ export const  Repository =(props)=>{
           </div>
       
           <div className="content">
-        {description}<br/>@{owner}
+        {description}<br/><strong>@{owner}</strong>
             <Link href={url}> @link </Link>
 
           
