@@ -1,4 +1,5 @@
 import 'bulma/css/bulma.min.css'
+
 import Link from 'next/link'
 const repo_style={
     paddingLeft:'10%',
@@ -8,7 +9,6 @@ const repo_style={
 
 const opacidad={
 opacity:'0.8',
-//backgroundColor:"#00CEA7"
   }
   
 
@@ -27,14 +27,14 @@ export const  Repository =(props)=>{
             <div className="media-left">
               
             </div>
-            <div className="media-content">
               <p className="title is-4">{name}</p>
-              <p className="subtitle is-6">@{owner}</p>
+            <div className="media-content">
+              <p className="subtitle is-6"></p>
             </div>
           </div>
       
           <div className="content">
-            {description} 
+        {description}<br/>@{owner}
             <Link href={url}> @link </Link>
 
           
