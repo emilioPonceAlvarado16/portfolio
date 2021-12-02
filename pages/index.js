@@ -8,6 +8,7 @@ import { Repository } from '../components/repositories/repository'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCopyright} from '@fortawesome/free-solid-svg-icons'
 import ReactGa from 'react-ga'
+import 'animate.css';
 
 const rep_style={
   paddingLeft:'10%',
@@ -95,7 +96,7 @@ export default function Home() {
           <code className={styles.code} >repositories</code>
         </p>
 
-        <div className="columns is-gapless is-multiline 3by3 " style={rep_style}>
+        <div className="columns is-gapless is-multiline 3by3 animate__animated  animate__fadeInLeft " style={rep_style}>
           {repositories.map((repo, index)=>{
 
             return(
