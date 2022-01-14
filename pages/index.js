@@ -48,7 +48,7 @@ export default function Home() {
            });
           console.log(repositorios);
           setRepositories(repositorios);//
-       
+          
 
         }
       })
@@ -57,21 +57,10 @@ export default function Home() {
       });
     }
 
-    useEffect(()=>{
-      console.debug("first loaded of the repos");
-      ReactGa.initialize('G-GPYHFQ91QD')
-      ReactGa.pageview("/")
-      readRepos();
+    
 
-
-
-
-    },[]);
-
+  
  
-
-
-
 
   return (
     <div className={styles.container}>
@@ -95,8 +84,10 @@ export default function Home() {
          
           <code className={styles.code} >repositories</code>
         </p>
+       
 
         <div className="columns is-gapless is-multiline 3by3 animate__animated  animate__fadeInLeft " style={rep_style}>
+       
           {repositories.map((repo, index)=>{
 
             return(
