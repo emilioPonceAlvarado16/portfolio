@@ -55,7 +55,7 @@ return (
         <div className='navbar-brand is-size-1'  style={holi}>
                 
 <a >
-          <img src="https://avatars.githubusercontent.com/u/20403522?v=4" alt="site-logo" style={photo_style}></img>
+          <img src="https://avatars.githubusercontent.com/u/20403522?v=4" alt="Isaias Ponce Alvarado" style={photo_style}></img>
         
              
 </a>

@@ -19,6 +19,7 @@ const App = ({ Component, pageProps }) => {
 
   return (
     <>
+    
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"
