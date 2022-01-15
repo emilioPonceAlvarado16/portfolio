@@ -74,7 +74,7 @@ export default function Home() {
 
 
   return (
-    <html lang="en">
+ 
     <main className={styles.container}>
       <Head>
 
@@ -126,6 +126,6 @@ export default function Home() {
         </a>
       </footer>
     </main>
-    </html>
+
   )
 }
