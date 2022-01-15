@@ -81,6 +81,7 @@ export default function Home() {
         <title>Isaias Ponce - Telematics Engineer</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="All about Isaias Ponce Alvarado as a Telematics Engineer, includes portfolio, resume, and much more." />
+        <meta name="google-site-verification" content="nsfIBKQGOA0Z--PzXE6AsSRYdHTf4o8KfcdEg2q6ezo" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
