@@ -67,10 +67,10 @@ return (
                 
 
          
-          <a  style={logo_name} >
+          <h1  style={logo_name} >
             Isaias Ponce
         
-                    </a>     
+                    </h1>     
                    
 
 
