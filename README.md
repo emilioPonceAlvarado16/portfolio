@@ -6,7 +6,7 @@ Hi, Here is my portfolio website
 https://eager-wiles-7bb641.netlify.app/
 
 
-Customized domain: https://www.isaias.poncealvarado.com/
+Custom domain: https://www.isaias.poncealvarado.com/
 
 
 ## Getting Started
