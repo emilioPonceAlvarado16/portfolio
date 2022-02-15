@@ -24,7 +24,7 @@ export const Skills = [
     slug: "Java/Python",
     Component: DiJava,
     title: "Python/Java/C",
-    Description: () => <>I have used Firebase for auth, database & analytics in my apps.</>,
+    Description: () => <>My favorite Programming languages</>,
     
   },
   {
@@ -47,7 +47,7 @@ export const Skills = [
     slug: "terminal",
     Component: DiTerminal,
     title: "Scripting",
-    Description: () => <>I have written dozens of Shell scripts for various purposes.</>,
+    Description: () => <>I have written some Shell scripts for my personal purposes.</>,
 
 
 
