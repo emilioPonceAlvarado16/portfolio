@@ -1,34 +1,26 @@
 {
-  "name": "portfolio",
+  "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build && next export",
+    "start": "next start"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.15",
-    "@react-pdf-viewer/core": "^2.4.1",
-    "@react-pdf-viewer/default-layout": "^2.9.1",
-    "animate.css": "^4.1.1",
-    "axios": "^0.22.0",
-    "bulma": "^0.9.3",
-    "next": "11.1.2",
-    "pdfjs-dist": "^2.6.347",
+    "framer-motion": "^6.2.6",
+    "ityped": "^1.0.3",
+    "next": "^12.0.10",
+    "ngrok": "^4.0.1",
     "react": "17.0.2",
-    "react-bulma-components": "^4.0.7",
     "react-dom": "17.0.2",
-    "react-ga": "^3.3.0",
-    "react-icons": "^4.3.1",
-    "react-pdf": "^5.4.0"
+    "react-icons": "^4.2.0",
+    "react-scroll": "^1.8.4",
+    "sass": "^1.49.7",
+    "styled-components": "^5.3.0",
+    "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "next-optimized-images": "^2.6.2"
   }
 }

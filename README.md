@@ -1,43 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/lordarcadius/portfolio/blob/master/LICENSE)
+
+  
+# Personal Portfolio
+
+A portfolio built in React and NextJS. Simple, clean and fast.
+
+**Note: The logo and banner used in the project are my intellectual property. Please refrain from using it anywhere.**
 
 
-Hi, Here is my portfolio website
 
-https://eager-wiles-7bb641.netlify.app/
+![App Screenshot](https://i.ibb.co/jRRNMkH/Screenshot-from-2021-10-27-18-45-14.png)
 
+  
+## Demo
 
-Custom domain: https://www.isaias.poncealvarado.com/
+[Live Preview](https://www.vipuljha.com)
 
+## Run Project 
 
-## Getting Started
-## Local
-First, run the development server:
+Run this project with Yarn
+
+```bash 
+  yarn && yarn run dev
+```
+    
+## Deployment
+
+To deploy this project run
 
 ```bash
-npm run dev
-# or
-yarn dev
+  yarn build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  
+## Contributing
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Contributions are always welcome!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Fork repo, make changes, test, create a pull request.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Please make sure to maintain `authorship`.
 
-## Learn More
+  
+## Credits
 
-To learn more about Next.js, take a look at the following resources:
+- [@adrianhajdin](https://github.com/adrianhajdin) (The original author)
+- [@lordarcadius](https://github.com/lordarcadius) (I just fixed and modified few things)
+- [@dhruvsaxena1998](https://github.com/dhruvsaxena1998) (For help and PR)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[MIT](https://github.com/lordarcadius/portfolio/blob/master/LICENSE)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  
