@@ -47,7 +47,7 @@ export const Skills = [
     slug: "terminal",
     Component: DiTerminal,
     title: "Scripting",
-    Description: () => <>I have written some Shell scripts for my personal purposes.</>,
+    Description: () => <>I have written some Shell scripts for personal purposes.</>,
 
 
 
