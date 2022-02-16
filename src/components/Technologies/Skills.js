@@ -18,7 +18,7 @@ export const Skills = [
     slug: "AWS",
     Component: DiAws,
     title: "AWS",
-    Description: () => <>Strong knowledge in AWS lambda, AWS api gateway, and deploy websites using AWS amplify</>,
+    Description: () => <>Good knowledge in AWS lambda, AWS api gateway, and deploy websites using AWS amplify</>,
   },
   {
     slug: "Java/Python",
@@ -35,13 +35,6 @@ export const Skills = [
     
   },
 
-  {
-    slug: "CCNA",
-    Component: DiDotnet,
-    title: "Cisco CCNA",
-    Description: () => <>Good knowledge of Cisco CCNA</>,
-    
-  },
   {
 
     slug: "terminal",

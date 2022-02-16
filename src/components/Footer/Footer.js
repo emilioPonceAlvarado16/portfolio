@@ -3,15 +3,21 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } fr
 import { Link } from '../../styles/GlobalComponents';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SectionTitle } from '../../styles/GlobalComponents';
 
 const Footer = () => {
   return (
     <FooterWrapper>
+      <SectionTitle >Contact</SectionTitle>
+
       <LinkList>
         <LinkColumn>
           <LinkTitle>Chat</LinkTitle>
           <LinkItem href="https://wa.me/+593968913869">Whatsapp</LinkItem>
+          <LinkItem href="https://t.me/ieponce">Telegram</LinkItem>
         </LinkColumn>
+
+        
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:ieponce@espol.edu.ec">
@@ -33,7 +39,6 @@ const Footer = () => {
      
         </SocialContainer>
       </SocialIconsContainer>
-
     </FooterWrapper>
   );
 };

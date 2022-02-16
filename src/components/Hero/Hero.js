@@ -15,7 +15,7 @@ export default function Header(props) {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Telematics Engineer", "Software Developer", "Self-taught"],
+      strings: ["Software Engineer",  "Self-taught"],
     });
   }, []);
   return (

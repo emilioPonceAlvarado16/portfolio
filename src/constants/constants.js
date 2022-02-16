@@ -9,13 +9,23 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Contact list with AWS',
+    description: "Personal Project - Contact list using React, Next.js, AWS(api gateway, lambda, dynamodb)",
+    image: '/images/demo.jpeg',
+    tags: ['React.js|',"Next.js|", 'AWS|', "Boostrap" ],
+    source: 'https://github.com/emilioPonceAlvarado16/demo-aws',
+    visit: 'https://demo-contact-list-aws.netlify.app/',
+    id: 1,
+  },
+
+  {
     title: 'BlockChain and agricultural products',
     description: "Track agricultural products from farms to end users using blockchain, raspberry's PI and node sensors.",
     image: '/images/blockChain_Isaias_Ponce.jpeg',
     tags: ['Python|', 'Flask|', 'BlockChain|', "Raspberry|",'html/css/Bs'],
     source: 'https://github.com/emilioPonceAlvarado16/Traceability-of-agricultural-products-using-blockchain',
     visit: 'http://www.idear.espol.edu.ec/sites/default/files/posters/edicion_x/telem%C3%A1tica_Cevallos_Carlos_Ponce_Isa%C3%ADas_Estudioparalaseguridadenlatrazabilidaddeproductosagr%C3%ADcolasusandoblockchaineninternetofthings.pdf',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Portfolio',
@@ -24,7 +34,7 @@ export const projects = [
     tags: ['React.js|', 'Next.js|',"Framer-motion|", "css/html|", "SEO"],
     source: 'https://github.com/emilioPonceAlvarado16/portfolio',
     visit: '/#',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Shrimp Pool',
@@ -33,7 +43,7 @@ export const projects = [
     tags: ['C', 'Arduino', 'Raspberry Pi'],
     source: 'https://github.com/emilioPonceAlvarado16/sensors-shrimp-pool',
     visit: 'files/reporte_Ponce-1.pdf',
-    id: 3,
+    id: 4,
   },
   {
     title: 'React Calculator',
@@ -42,7 +52,7 @@ export const projects = [
     tags: ['React.js', 'CSS', 'HTML'],
     source: 'https://github.com/emilioPonceAlvarado16/Calculator-app-react',
     visit: 'https://codesandbox.io/s/github/emilioPonceAlvarado16/Calculator-app-react/tree/main/?file=/src/App.js:2018-2106',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Game of life',
@@ -51,7 +61,7 @@ export const projects = [
     tags: ['C', 'Linux'],
     source: 'https://github.com/emilioPonceAlvarado16/Game-of-life',
     visit: '/images/game_of_life.jpeg',
-    id: 5,
+    id: 6,
   },
 
 ];
