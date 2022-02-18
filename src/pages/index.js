@@ -13,7 +13,7 @@ const Home = () => {
 
       <title>Isaias Ponce - Software Engineer</title>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="description" content="All about Isaias Ponce - Telematics Engineer graduated at ESPOL, includes portfolio, resume, and much more. " />
+      <meta name="description" content="All about Isaias Ponce - Software Engineer graduated at ESPOL, includes portfolio, resume, and much more. " />
       <meta name="google-site-verification" content="nsfIBKQGOA0Z--PzXE6AsSRYdHTf4o8KfcdEg2q6ezo" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
