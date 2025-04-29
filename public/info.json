@@ -1,0 +1,27 @@
+{
+    "name": "Jose Calero",
+    "lastName": "",
+    "username": "218.19.1707007942",
+    "handle": "218.19.1707007942",
+    "accountNumber": "5000000106",
+    "accountState": "ACTIVE",
+    "productName": "KISAPINCHA",
+    "balanceList": [
+        {
+            "amount": 0.0,
+            "amountFormatted": "USD 0,00",
+            "currency": "840",
+            "symbol": "USD"
+        },
+        {
+            "amount": 0.0,
+            "amountFormatted": "USD 0,00",
+            "currency": "840",
+            "symbol": "USD"
+        }
+    ],
+    "requiredCardActivation": false,
+    "documentNumber": "1707007942",
+    "documentType": 19,
+    "country": "218"
+}
