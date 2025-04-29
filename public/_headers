@@ -1,3 +1,9 @@
 /resources.json
   Access-Control-Allow-Origin: *
-  Content-Disposition: attachment; filename="resources.json"
+
+/feed.json
+  Access-Control-Allow-Origin: *
+
+
+/info.json
+  Access-Control-Allow-Origin: *
