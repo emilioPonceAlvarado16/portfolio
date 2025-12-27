@@ -16,7 +16,7 @@ const Topbar=({ menuOpen, setMenuOpen })=> {
           </div>
           <div className="itemContainer">
             <i className="fa fa-email" />
-            <span>ieponce@espol.edu.ec</span>
+            <span>isaiasponce-12@hotmail.es</span>
           </div>
       
           

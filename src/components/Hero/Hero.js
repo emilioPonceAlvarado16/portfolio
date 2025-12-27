@@ -43,7 +43,7 @@ export default function Header(props) {
           >
             <Button onClick={(e) => {
               e.preventDefault();
-              window.open('/files/Isaias_Ponce_CV.pdf');
+              window.open('/files/CV_ISAIAS_PONCE.pdf');
             }}>My Resume</Button>
 
           </motion.div>
