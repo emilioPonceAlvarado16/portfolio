@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'FormatMaker',
+    description: "AI-powered document creation platform that generates professional LaTeX documents with intelligent formatting and customization options.",
+    image: '/images/formatmaker.png',
+    tags: ['Python|', 'Next.js|', 'React.js|', 'AWS|', 'PostgreSQL'],
+    source: 'https://github.com/emilioPonceAlvarado16/',
+    visit: 'https://formatmaker.com',
+    id: 0,
+  },
+  {
     title: 'Reservation System',
     description: "Administrative reservation management system for residents with monthly quota tracking, payment verification, and comprehensive reporting. Features include cycle management, Excel/PDF exports, and WhatsApp integration.",
     image: '/images/reservation_system.jpeg',
     tags: ['React.js|', 'Next.js|', 'Node.js|', 'MongoDB|', 'AWS S3|', 'Bootstrap'],
     source: 'https://github.com/emilioPonceAlvarado16/',
     visit: 'http://vistana-demo.s3-website-us-east-1.amazonaws.com',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Free Wordcloud Generator',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['React.js|',"Next.js|", 'Html/CSS|', "Boostrap|",'API|', "GA" ],
     source: 'https://github.com/emilioPonceAlvarado16/wordcloud-generator',
     visit: 'https://freewordcloud.netlify.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Contact list with AWS',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['React.js|',"Next.js|", 'AWS|', "Boostrap" ],
     source: 'https://github.com/emilioPonceAlvarado16/demo-aws',
     visit: 'https://demo-contact-list-aws.netlify.app/',
-    id: 2,
+    id: 3,
   },
 
   {
@@ -34,7 +43,7 @@ export const projects = [
     tags: ['Python|', 'Flask|', 'BlockChain|', "Raspberry|",'html/css/Bs'],
     source: 'https://github.com/emilioPonceAlvarado16/Traceability-of-agricultural-products-using-blockchain',
     visit: 'http://www.idear.espol.edu.ec/sites/default/files/posters/edicion_x/telem%C3%A1tica_Cevallos_Carlos_Ponce_Isa%C3%ADas_Estudioparalaseguridadenlatrazabilidaddeproductosagr%C3%ADcolasusandoblockchaineninternetofthings.pdf',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Portfolio',
@@ -43,7 +52,7 @@ export const projects = [
     tags: ['React.js|', 'Next.js|',"Framer-motion|", "css/html|", "SEO"],
     source: 'https://github.com/emilioPonceAlvarado16/portfolio',
     visit: '/#',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Shrimp Pool',
@@ -52,7 +61,7 @@ export const projects = [
     tags: ['C', 'Arduino', 'Raspberry Pi'],
     source: 'https://github.com/emilioPonceAlvarado16/sensors-shrimp-pool',
     visit: 'files/reporte_Ponce-1.pdf',
-    id: 5,
+    id: 6,
   },
   {
     title: 'React Calculator',
@@ -61,7 +70,7 @@ export const projects = [
     tags: ['React.js', 'CSS', 'HTML'],
     source: 'https://github.com/emilioPonceAlvarado16/Calculator-app-react',
     visit: 'https://codesandbox.io/s/github/emilioPonceAlvarado16/Calculator-app-react/tree/main/?file=/src/App.js:2018-2106',
-    id: 6,
+    id: 7,
   },
   {
     title: 'Game of life',
@@ -70,7 +79,7 @@ export const projects = [
     tags: ['C', 'Linux'],
     source: 'https://github.com/emilioPonceAlvarado16/Game-of-life',
     visit: '/images/game_of_life.jpeg',
-    id: 7,
+    id: 8,
   },
 
 ];
